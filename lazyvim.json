@@ -1,0 +1,11 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.codeium",
+    "lazyvim.plugins.extras.editor.dial",
+    "lazyvim.plugins.extras.lang.typescript"
+  ],
+  "news": {
+    "NEWS.md": "6520"
+  },
+  "version": 6
+}

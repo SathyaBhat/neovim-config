@@ -1,0 +1,12 @@
+{
+  "hugo fancybox": {
+    "prefix": "hfb",
+    "body": ["{{< fancybox \"https://i.sathyabh.at/sb/weekly-notes\" \".jpg\" \"\" \"Weekly Notes\" >}}"],
+    "description": "Fancybox"
+  },
+  "hugo youtube": {
+    "prefix": "hyt",
+    "body": ["{{< youtube ${1:code} ${0} >}}"],
+    "description": "Hugo Youtube Shortcode"
+  }
+}
