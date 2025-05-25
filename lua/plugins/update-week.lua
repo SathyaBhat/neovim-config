@@ -31,11 +31,11 @@ return {
         end
         return result
       end
-      vim.keymap.set("n", "uwk", function()
+      vim.keymap.set("n", "<leader>hwk", function()
         replace_pattern("<<week>>", get_iso_week(), "week number")
       end, { desc = "Replace <<week>> with ISO week number" })
 
-      vim.keymap.set("n", "umd", function()
+      vim.keymap.set("n", "<leader>hmd", function()
         replace_pattern("<<month>>-<<date>>", get_month_date(), "month-date")
       end, { desc = "Replace <<month-date>> with current month-date" })
     end,

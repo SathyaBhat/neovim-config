@@ -1,7 +1,9 @@
 {
   "hugo fancybox": {
     "prefix": "hfb",
-    "body": ["{{< fancybox \"https://i.sathyabh.at/sb/weekly-notes\" \".jpg\" \"\" \"Weekly Notes\" >}}"],
+    "body": [
+      "\n <div class=\"masonry-gallery\">\n\n {{< fancybox \"https://i.sathyabh.at/sb/weekly-notes\" \".jpg\" \"\" \"Weekly Notes\" >}} \n\n</div>\n"
+    ],
     "description": "Fancybox"
   },
   "hugo youtube": {
