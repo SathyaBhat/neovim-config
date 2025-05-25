@@ -1,4 +1,11 @@
-# 💤 LazyVim
+# Sathya's LazyVim Config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+My LazyVim config is pretty minimal. It includes the following features:
+- disable autoformat on save for Markdown files.
+- custom keybinding to update weekly notes week & date
+- custom words added to spell check dictionary 
+- extra plugins:
+  - catppuccin mocha theme.
+  - copilot 
+
+```
